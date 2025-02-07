@@ -144,7 +144,7 @@ class _HomePageState extends State<HomePage> {
         final imageElement = html.ImageElement()
           ..src = imageUrl!
           ..style.borderRadius = '12px'
-          ..style.objectFit = 'cover'
+          ..style.objectFit = 'contain'
           ..style.width = '100%'
           ..style.height = '100%';
         container.append(imageElement);
